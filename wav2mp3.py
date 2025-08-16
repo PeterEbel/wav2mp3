@@ -31,7 +31,7 @@ def read_wav_tags(wav_file):
 
         tag_map = {
             "TIT2": "title", "TPE1": "artist", "TALB": "album", "TDRC": "date",
-            "TCON": "genre", "TRCK": "tracknumber", "TPE2": "albumartist", "COMM": "comment",
+            "TCON": "genre", "TRCK": "track", "TPE2": "albumartist", "COMM": "comment",
         }
         
         pydub_tags = {
